@@ -1,0 +1,10 @@
+<Project Sdk="Bannerlord.DataModule.Sdk/1.0.1.64">
+
+  <PropertyGroup>
+    <!-- Module Id -->
+    <ModuleId>zzCharacterCreation_AdditionalSliders</ModuleId>
+    <!-- Module Name -->
+    <ModuleName>Detailed Character Creation - Additional Sliders</ModuleName>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿<Project Sdk="Bannerlord.BUTRModule.Sdk/1.0.1.63">
+
+  <PropertyGroup>
+    <!-- Module Id -->
+    <ModuleId>zzCharacterCreation</ModuleId>
+    <!-- Module Name -->
+    <ModuleName>Detailed Character Creation</ModuleName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>PoPoWanObi, Designer225</Authors>
+    <Copyright>Copyright © PoPoWanObi 2020</Copyright>
+    <Nullable>warnings</Nullable>
+    <!-- Define your GameFolder here to simplify loading plugins and output dirs -->
+    <!--<GameFolder>C:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord</GameFolder>-->
+    <GameFolder>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord</GameFolder>
+  </PropertyGroup>
+
+  <!-- Development Variables -->
+  <PropertyGroup>
+    <!-- Harmony Version -->
+    <HarmonyVersion>2.1.1</HarmonyVersion>
+    <!-- MCM Version -->
+    <MCMVersion>4.3.17</MCMVersion>
+    <!-- ModuleLoader Version -->
+    <BUTRModuleLoaderVersion>1.0.1.24</BUTRModuleLoaderVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="_Module\ModuleData\project.mbproj" />
+  </ItemGroup>
+
+  <!--Windows Forms-->
+  <ItemGroup>
+    <_SDKImplicitReference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <!--Windows Forms-->
+
+  <PropertyGroup>
+    <DisableReferenceAssemblies>true</DisableReferenceAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Bannerlord.ReferenceAssemblies.Core.EarlyAccess" Version="$(GameVersion).*" IncludeAssets="compile" />
+    <PackageReference Include="Bannerlord.ReferenceAssemblies.Native.EarlyAccess" Version="$(GameVersion).*" IncludeAssets="compile" />
+    <PackageReference Include="Bannerlord.ReferenceAssemblies.SandBox.EarlyAccess" Version="$(GameVersion).*" IncludeAssets="compile" />
+    <PackageReference Include="Bannerlord.ReferenceAssemblies.StoryMode.EarlyAccess" Version="$(GameVersion).*" IncludeAssets="compile" />
+  </ItemGroup>
+
+</Project>

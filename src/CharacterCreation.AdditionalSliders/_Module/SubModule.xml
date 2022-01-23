@@ -1,0 +1,22 @@
+<Module>
+  <Name value="$modulename$"/>
+  <Id value="$moduleid$" />
+  <Version value="v$version$" />
+  <SingleplayerModule value="true" />
+  <MultiplayerModule value="false" />
+  <DependedModules>
+    <DependedModule Id="zzCharacterCreation" DependentVersion="v$version$" />
+  </DependedModules>
+  <DependedModuleMetadatas>
+    <DependedModuleMetadata id="zzCharacterCreation" order="LoadBeforeThis" version="v$version$" />
+  </DependedModuleMetadatas>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="soln_skins" path="skins" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>
