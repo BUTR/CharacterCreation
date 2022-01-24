@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.4.0.11
+Game Versions: e1.7.0
+* Switched to using XSL(T) to change skin files. Existing XML files are kept for reference.
+* Removed code modifying skins.xml load order as that is no longer needed.
+* Both should resolve an incompatibility with Eagle Rising.
+---------------------------------------------------------------------------------------------------
