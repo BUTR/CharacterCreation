@@ -1,4 +1,4 @@
-<Project Sdk="Bannerlord.DataModule.Sdk/1.0.1.66">
+<Project Sdk="Bannerlord.DataModule.Sdk/1.0.1.67">
 
   <PropertyGroup>
     <!-- Module Id -->
