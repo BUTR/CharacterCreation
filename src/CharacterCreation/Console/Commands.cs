@@ -17,7 +17,7 @@ namespace CharacterCreation
                 TaleWorlds.Core.FaceGen.ShowDebugValues = false; // Enable developer facegen
                 return DccDisabledMsg.ToString();
             }
-            
+
             TaleWorlds.Core.FaceGen.ShowDebugValues = true; // Enable developer facegen
             return DccEnabledMsg.ToString();
         }

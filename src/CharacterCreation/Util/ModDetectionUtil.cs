@@ -18,7 +18,7 @@ namespace CharacterCreation
         {
             get
             {
-                
+
                 if (modules.Count == 0) // this should only happen when this property is first called.
                 {
                     string[] moduleNames = Utilities.GetModulesNames();

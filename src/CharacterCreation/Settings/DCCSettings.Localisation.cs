@@ -10,15 +10,15 @@ namespace CharacterCreation
     public partial class DCCSettings
     {
         private const string DisplayNameText = "{=CharacterCration_ModNameText}Detailed Character Creation",
-            
+
             Section0 = "{=CharacterCreation_Section0}Section 0: Debug Mode",
             DebugModeName = "{=CharacterCreation_DebugModeName}Enable debug output",
             DebugModeHint = "{=CharacterCreation_DebugModeHint}Enable DCC's debug output. Does NOT require restart.",
-            
+
             Section1 = "{=CharacterCreation_Section1}Section 1: Overrides",
             IgnoreDailyTickName = "{=CharacterCreation_IgnoreDailyTickName}Suppress Daily Tick",
             IgnoreDailyTickHint = "{=CharacterCreation_IgnoreDailyTickHint}Keep this on to prevent the game from reverting your appearance. Does NOT require restart.",
-            
+
             Section2 = "{=CharacterCreation_Section2}Section 2: Age Model",
             CustomAgeModelName = "{=CharacterCreation_CustomAgeModelName}Custom Age Model",
             CustomAgeModelHint = "{=CharacterCreation_CustomAgeModelHint}Enable this to use a custom age model. Disable if another mod uses a custom age model. REQUIRES restart.",
@@ -34,7 +34,7 @@ namespace CharacterCreation
             BecomeOldAgeHint = "{=CharacterCreation_BecomeOldAgeHint}Set the default old stage age. Does NOT require restart.",
             MaxAgeName = "{=CharacterCreation_MaxAgeName}Max Age Stage",
             MaxAgeHint = "{=CharacterCreation_MaxAgeHint}Set the default max age. Does NOT require restart.",
-            
+
             Section3 = "{=CharacterCreation_Section3}Section 3: Compatibility",
             EnableCompatibilityName = "{=CharacterCreation_EnableCompatibilityName}Enable Compatibility",
             EnableCompatibilityHint = "{=CharacterCreation_EnableCompatibilityHint}Enable compatibility patches to resolve mod conflicts. ALL options REQUIRES restart.",

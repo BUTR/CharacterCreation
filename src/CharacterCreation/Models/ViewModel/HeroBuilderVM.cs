@@ -94,7 +94,7 @@ namespace CharacterCreation.Models
         //        InformationManager.DisplayMessage(new InformationMessage(InvalidCharacterText.ToString(), ColorManager.Red));
         //        return;
         //    }
-            
+
         //    if (!string.IsNullOrEmpty(heroName))
         //    {
         //        selectedHero.Name = new TextObject(heroName);
@@ -146,7 +146,7 @@ namespace CharacterCreation.Models
         //    //ScreenManager.PushScreen(ViewCreator.CreateMBFaceGeneratorScreen(hero.CharacterObject, false));
         //    ScreenManager.PushScreen(new MBFaceGeneratorGauntletScreen(hero.CharacterObject, false, null));
         //}
-        
+
         //Game.Current.PlayerTroop -- ingore me
         //private HeroBuilderModel? heroModel;
         private Hero? selectedHero;
