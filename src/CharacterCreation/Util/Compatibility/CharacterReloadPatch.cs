@@ -114,7 +114,7 @@ namespace CharacterCreation.Util
                 harmony.Patch(AccessTools.Method(DynamicBodyPatch, "Prefix"), new HarmonyMethod(DoNotExecutePrefixSilentInfo));
                 Debug.Print("[CharacterCreation] Disabled CharacterReload.Patch.DynamicBodyPatch");
             }
-            
+
             // SaveCurrentCharacter
             // Is this patch necessary at all?
             if (SaveCurrentCharacter == default) SaveCurrentCharacter = AccessTools.Inner(AccessTools.TypeByName("CharacterReload.Patch.BodyGeneratorPatch"), "SaveCurrentCharacter");
